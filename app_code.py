@@ -7,9 +7,6 @@ Régression Logistique - Modèles Logit et Probit
 import streamlit as st
 import pandas as pd
 import numpy as np
-# Configuration matplotlib pour Streamlit Cloud
-import matplotlib
-matplotlib.use('Agg')  # Important pour Streamlit Cloud
 import matplotlib.pyplot as plt
 import seaborn as sns
 from scipy import stats
